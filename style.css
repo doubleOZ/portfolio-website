@@ -102,6 +102,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1;
 }
 
 .menu-links a {
@@ -147,7 +148,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 20rem;
+  margin: 0 15rem;
   box-sizing: border-box;
   min-height: fit-content;
   position: relative;
@@ -164,7 +165,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 83vh;
-  z-index: -1;
 }
 
 .section__pic-container {
