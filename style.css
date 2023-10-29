@@ -346,8 +346,10 @@ article .icon {
 
 /* PROJECTS */
 
-#project a:hover {
+#projects a {
   text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .color-container {
