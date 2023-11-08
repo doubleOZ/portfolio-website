@@ -1,13 +1,38 @@
+:root {
+  /* --primary-color: #262d2a; */
+  --secondary-color: #bcad7b;
+  /* og */
+  /* --primary-color: #f6eee3; */
+  /* cloud dancer */
+  /* --primary-color: #f0eee9; */
+  /* white smoke */
+  /* --primary-color: #f8f8f8; */
+  /* raw milk */
+  /* --primary-color: #fdfff5; */
+  /* alice blue */
+  /* --primary-color: #f0f8ff; */
+  /* purple ice water */
+  /* --primary-color: #e5e0e5; */
+  /* green milk */
+  --primary-color: #e4e7d6;
+  --primary-font: #101205;
+  /* bone white */
+  /* --primary-color: #f9f6ee; */
+  /* ivory */
+  /* --primary-color: #fffff0; */
+  /* parchment */
+  /* --primary-color: #fcf5e5; */
+  /* pearl */
+  /* --primary-color: #e2dfd2; */
+  /* sea shell */
+  /* --primary-color: #fff5ee; */
+  /* mint cream */
+  /* --primary-color: #f5fffa; */
+}
+
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-
-:root {
-  /* --primary-color: #262d2a;
-  --secondary-color: #bcad7b; */
-  --primary-color: #f6eee3;
-  /* --secondary-color: #bcad7b; */
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Hanken+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -16,8 +41,12 @@
 
 body {
   background-color: var(--primary-color);
-  font-family: "Roboto", sans-serif;
-  /* color: var(--secondary-color); */
+  /* font-family: "DM Sans", sans-serif; */
+  /* font-family: "Hanken Grotesk", sans-serif; */
+  font-family: "Inter", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Work Sans", sans-serif; */
+  color: var(--primary-font);
 }
 
 html {
@@ -50,8 +79,8 @@ nav {
 
 .nav-links {
   gap: 2rem;
-  list-style: none;
   font-size: 1.5rem;
+  list-style-type: none;
 }
 
 a {
@@ -125,7 +154,6 @@ a:hover {
 }
 
 .menu-links li {
-  list-style: none;
 }
 
 .menu-links.open {
@@ -194,7 +222,7 @@ section {
 }
 
 .section__text p {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .section__text__p1 {
