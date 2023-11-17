@@ -31,7 +31,7 @@
   }
   section {
     margin: 0 5%;
-    height: 100dvh;
+    /* height: 100dvh; */
   }
   .section__pic-container {
     width: 275px;
