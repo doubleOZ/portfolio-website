@@ -27,7 +27,8 @@
   }
   section,
   .section-container {
-    height: fit-content;
+    /* height: fit-content; */
+    height: 100dvh;
   }
   section {
     margin: 0 5%;
