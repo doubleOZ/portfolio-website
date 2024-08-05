@@ -358,10 +358,15 @@ section {
   margin-bottom: 2rem;
 }
 
+/* .experience-details-container { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   flex-direction: column; */
+/* } */
 .experience-details-container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap; /* Allows the flex items to wrap to the next line */
+  justify-content: center; /* Centers the items horizontally */
 }
 
 .article-container {
@@ -392,23 +397,28 @@ article {
   font-size: 0.9rem;
 }
 
+/* .color-container { */
+/*   flex: 1; */
+/*   padding: 1.5rem; */
+/*   text-align: center; */
+/*   border-color: rgb(163, 163, 163); */
+/*   background: var(--primary-color); */
+/*   /* background: linear-gradient(to right, black 4px, transparent 4px) 0 0, */
+/*     linear-gradient(to right, black 4px, transparent 4px) 0 100%, */
+/*     linear-gradient(to left, black 4px, transparent 4px) 100% 0, */
+/*     linear-gradient(to left, black 4px, transparent 4px) 100% 100%, */
+/*     linear-gradient(to bottom, black 4px, transparent 4px) 0 0, */
+/*     linear-gradient(to bottom, black 4px, transparent 4px) 100% 0, */
+/*     linear-gradient(to top, black 4px, transparent 4px) 0 100%, */
+/*     linear-gradient(to top, black 4px, transparent 4px) 100% 100%; */
+/**/
+/*   background-repeat: no-repeat; */
+/*   background-size: 20px 20px; */ */
+/* } */
 .color-container {
-  flex: 1;
-  padding: 1.5rem;
-  text-align: center;
-  border-color: rgb(163, 163, 163);
-  background: var(--primary-color);
-  /* background: linear-gradient(to right, black 4px, transparent 4px) 0 0,
-    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
-    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
-    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
-    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
-    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
-    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
-    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
-
-  background-repeat: no-repeat;
-  background-size: 20px 20px; */
+  flex: 1 1 30%; /* This allows the flex items to grow and shrink, and sets a base width of 30% */
+  margin: 10px; /* Adds some space between the flex items */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
 .project-img {
